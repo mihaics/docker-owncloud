@@ -14,7 +14,7 @@ docker network create -d bridge nginx-proxy
 
 
 # update docker-compose
-curl -L https://github.com/docker/compose/releases/download/1.7.1/docker-compose-`uname -s`-`uname -m` > /usr/loca/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.7.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 
 # run docker-compose to bring up the images
 /usr/local/bin/docker-compose up
