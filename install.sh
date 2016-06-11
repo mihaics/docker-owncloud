@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # make shure SERVER_NAME, EMAIL and DOMAIN_NAME are defined
-export DOMAIN_NAME=tcmdsystems.eu
-export SERVER_NAME=docker.tcmdsystems.eu
-export EMAIL=mihai.csaky@tcmdsystems.eu
+export DOMAIN_NAME=example.com
+export SERVER_NAME=owncloud.example.com
+export EMAIL=user@example.com
 
 # create volume directory
 cp -rf srv /

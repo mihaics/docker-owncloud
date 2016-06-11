@@ -12,6 +12,8 @@ services:
       - "/usr/share/nginx/html"
       - "/srv/volumes/proxy/certs:/etc/nginx/certs:ro"
     restart: always
+    depends_on: 
+      - nginx-gen
     networks:
       - proxy-tier
 
