@@ -4,7 +4,7 @@ scripts to generate a full owncloud stack with mysql, nginx, letsencrypt ready t
 git clone https://github.com/mihaics/docker-owncloud.git
 cd docker-owncloud
 
-# edit install.sh and set DOMAIN_NAME, SERVER_NAME, EMAIL
+edit install.sh and set DOMAIN_NAME, SERVER_NAME, EMAIL
 
-# ./install.sh
+run ./install.sh
 
